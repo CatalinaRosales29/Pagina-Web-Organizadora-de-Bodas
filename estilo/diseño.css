@@ -1,29 +1,43 @@
 
+/* Portada  */
+
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=El+Messiri:wght@400..700&family=Inter:wght@100..900&family=Jaldi:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi+Ink&family=Roboto+Slab:wght@100..900&family=Ruda:wght@400..900&display=swap');
+/*  titulo portada*/
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=El+Messiri:wght@400..700&family=Inter:wght@100..900&family=Jaldi:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi+Ink&family=Roboto+Slab:wght@100..900&family=Ruda:wght@400..900&display=swap');
+
+/* Parrafos */
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@100..900&family=Jaldi:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi+Ink&family=Roboto+Slab:wght@100..900&family=Ruda:wght@400..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
 /*  Portada */
 .contenedor-imagen{
-background-image: url(../portada.png);
+background-image: url(../Portadaa.png);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 40px;
 text-align: center;
 color: #fff;
-padding: 300px;
+padding: 350px;
 }
 .txtAu{
     font-size: 80px;
+    font-family: "El Messiri", sans-serif;
 }
 
 
 /*  Navegador */
 .navegador {
     /* Estilos adicionales para el contenedor del menú si es necesario */
-    background-color: rgb(163, 97, 97);
-    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
     padding-bottom: 30px;
     border-top: 2px solid rgb(255, 255, 255); /* Borde en la parte superior */
     border-radius: 20px 20px 0 0; 
-    margin-top: -20px;
+    margin-top: -80px;
 }
 
 .navegador ul {
@@ -34,67 +48,100 @@ padding: 300px;
 
 .navegador ul li {
     display: inline; /* Muestra los elementos de lista en línea */
-    margin-right: 90px; /* Espacio entre los elementos de la lista si es necesario */
-    margin-left: 40px;
+    margin-right: 40px; /* Espacio entre los elementos de la lista si es necesario */
+    margin-left: 65px;
 }
 
 .navegador ul li a {
     text-decoration: none; /* Elimina el subrayado de los enlaces */
-    color: black; /* Color del texto para los enlaces */
+    color: rgba(89, 85, 85, 1); /* Color del texto para los enlaces */
+    font-family: "Poppins", sans-serif;
+
 }
 
 /* Div sobrenosotros*/
 
 .Sobre_nosotros{
     background-color: rgba(245, 241, 241, 1);
+    margin-top: -2px;
+    padding-top: 60px;
+    margin-bottom:28px;
+    padding-bottom: 50px; 
 }
 .subTitulo{
     text-align: center;
    padding-top: 40px;
+   font-family: "Lora", serif;
+   color:rgba(91, 89, 89, 1);
+   letter-spacing: 0.2em; 
 }
 .parrafo{
     text-align: center;
-    
-    font-size: 18px;
-    padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    color:rgba(51, 43, 43, 1);
+    font-size: 20px;
+    padding: 23px;
+    padding-left: 100px;
+    padding-right: 100px;
 
 }
 .imagen{
     width: 90%;
     height:90%;
     margin-left: 80px;
+    
 }
 /* Div servicios*/
+
 .Servicios{
     background-color: rgba(245, 241, 241, 1);
-    padding-bottom: 30px;
+    margin-top: -2px;
+    padding-top: 60px;
+    margin-bottom:28px;
+    padding-bottom: 50px;
 }
 .imagen-2 {
     display: flex;
     justify-content: space-around;
-    margin: 100px;
+    margin: 30px;
 }
 .uno {
     max-width: 100%;
     max-height: 400px; /* Ajusta la altura máxima para hacer las imágenes un poco más grandes */
     margin: 1px;
+   
+
 }
 /* Div h_a*/
+
+.HistoriaAmor{
+    background-color: rgba(245, 241, 241, 1);
+    margin-top: -2px;
+    padding-top: 60px;
+    margin-bottom:28px;
+    padding-bottom: 50px;
+}
 .corazonImg {
     text-align: center; /* Esto centrará horizontalmente el contenido dentro del contenedor */
-    margin: 100px;
+    margin: 30px;
+
 }
 
 
 /* Div consejos y recursos */
 .Con_Rec{
-    background-color: aliceblue;
+    background-color: rgba(245, 241, 241, 1);
+    font-family: "El Messiri", sans-serif;
+    margin-top: -2px;
+    padding-top: 60px;
+    margin-bottom:28px;
+    padding-bottom: 50px;
     
 }
 
 .miniParrafo {
     display: inline-block; /* Esto hará que los párrafos se muestren como cuadros */
-    width: 180px; /* Ancho deseado para cada cuadro */
+    width: 183px; /* Ancho deseado para cada cuadro */
     margin: 40px; /* Espacio entre los cuadros */
     padding: 16px; /* Espacio interior dentro de cada cuadro */
     font-size: 18px;
@@ -106,13 +153,22 @@ padding: 300px;
 
 
 /*  div contacto */
+.Contacto{
+    background-color: rgba(245, 241, 241, 1);
+    margin-top: -2px;
+    padding-top: 60px;
+    margin-bottom:28px;
+    padding-bottom: 50px;
+}
 .Logo_Final{
     text-align: center;
+    margin-top: -100px;
 }
 
 
 .img_redes {
     display: flex;
+    
     flex-direction: row; /* Alinea los elementos en una fila horizontal */
 }
 
@@ -121,7 +177,9 @@ padding: 300px;
     flex-direction: column; /* Alinea los elementos en una columna vertical dentro de cada .red_social */
     align-items: center; /* Alinea horizontalmente los elementos dentro de cada .red_social */
     margin-right: 70px; /* Espacio entre cada red social */
-    margin-left: 50px;
+    margin-left: 80px;
+    color: rgba(51, 43, 43, 1);
+    margin-top: -50px;
 }
 
 
@@ -131,5 +189,43 @@ padding: 300px;
     margin-bottom: 5px; /* Espacio entre la imagen y el texto */
 }
 
+.txtcamino{
+    margin-top: 7px;
+}
+
+.normas {
+    display: flex; /* Utiliza flexbox para alinear los elementos en una fila horizontal */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-top: 28px;
+    align-items: center;
+   margin-bottom: 50px;
+   padding: 30px;
+}
 
 
+.normas a {
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    margin: 0 100px; /* Espacio entre cada enlace */
+}
+
+.normas p {
+    margin: 0; /* Elimina el margen predeterminado de los párrafos */
+     color: rgba(173, 171, 171, 1);
+}
+
+
+
+.normas a, .separator {
+    margin: 0 5px; /* Espacio entre los enlaces y los separadores */
+}
+
+.normas p, .separator {
+    margin: 0; /* Elimina el margen predeterminado de los párrafos y los separadores */
+}
+
+.footer{
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+    
+   height: 220px;
+    background-color: rgba(245, 241, 241, 1);
+}
